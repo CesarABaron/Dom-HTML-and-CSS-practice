@@ -1,6 +1,6 @@
 #divTitulo{
     background-color: black;
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,6 +10,8 @@
 
 #titulo{
     color: aliceblue;
+    text-align: center;
+    font-size: 5vh;
 }
 
 #contenedor{
@@ -18,7 +20,8 @@
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+
     
 }
 
@@ -28,27 +31,28 @@
     align-items: center;
     justify-content: center;
     margin: 0vh;
+    font-size: 5vh;
 }
 
 #personajes2{
     background-color: rgb(39, 39, 158);
-    height: 45vh;
-    width: 90vh;
+    height: 67vh;
+    width: 75%;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2vh
+    margin-bottom: 10vh;
+    border-radius: 5vh;
 
-
-    
 }
 
 
 #imagenContainer{
     background-color: rgb(177, 177, 199);
-    height: 30vh;
-    width: 50vh;
+    width: 60vh;
+    width: 60vh;
+    margin:5vh;
 }
 
 #feet{
@@ -57,18 +61,36 @@
     flex-direction: column;
     align-items: center;
     background-color: black;
+   
 }
 
 #creador{
     color: aliceblue;
-    font-size: small;
+    font-size:2vh;
 }
 
 
 #contEnviar{
-    margin-top: 1vh;
+    margin-top: 1%;
 }
 
 #cambiarImg{
+    margin: 2%;
+    border-radius: 5vh;
+    height: 5vh;
+    width: 50vh;
+    font-size: 2vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+#nombre{
+    height: 1.5vh;
     margin-bottom: 2vh;
 }
