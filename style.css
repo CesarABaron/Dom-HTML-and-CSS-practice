@@ -1,0 +1,74 @@
+#divTitulo{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#titulo{
+    color: aliceblue;
+}
+
+#contenedor{
+    
+    background-color: aquamarine;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+
+#personajes1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vh;
+}
+
+#personajes2{
+    background-color: rgb(39, 39, 158);
+    height: 45vh;
+    width: 90vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh
+
+
+    
+}
+
+
+#imagenContainer{
+    background-color: rgb(177, 177, 199);
+    height: 30vh;
+    width: 50vh;
+}
+
+#feet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+#creador{
+    color: aliceblue;
+    font-size: small;
+}
+
+
+#contEnviar{
+    margin-top: 1vh;
+}
+
+#cambiarImg{
+    margin-bottom: 2vh;
+}
