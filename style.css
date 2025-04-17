@@ -36,7 +36,7 @@
 
 #personajes2{
     background-color: rgb(39, 39, 158);
-    height: 67vh;
+    height: 66vh;
     width: 75%;
     flex-direction: column;
     display: flex;
@@ -61,12 +61,14 @@
     flex-direction: column;
     align-items: center;
     background-color: black;
+    height: 9vh;
    
 }
 
 #creador{
     color: aliceblue;
     font-size:2vh;
+    margin-bottom: 2vh;
 }
 
 
