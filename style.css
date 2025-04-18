@@ -50,8 +50,8 @@
 
 #imagenContainer{
     background-color: rgb(177, 177, 199);
-    width: 60vh;
-    width: 60vh;
+    height: 60vh;
+    width: 70vh;
     margin:5vh;
 }
 
